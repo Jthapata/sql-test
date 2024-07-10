@@ -1,0 +1,19 @@
+{
+  "name": "day1",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "local": "node -r dotenv/config app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

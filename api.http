@@ -1,0 +1,16 @@
+POST http://localhost:5050/createEmployee
+Content-Type: application/json
+
+{
+    "first_name": "John",
+    "last_name": "Smith",
+    "email": "johns@email.com"
+}
+
+
+###
+GET http://localhost:5050/getFilmById/1
+
+
+###
+GET http://localhost:5050/getEmployees
